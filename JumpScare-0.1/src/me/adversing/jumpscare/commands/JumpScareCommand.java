@@ -10,7 +10,6 @@ import me.Adversing.jumpscare.command.Command;
 import me.Adversing.jumpscare.command.CommandArgs;
 
 public class JumpScareCommand {
-	@SuppressWarnings("deprecation")
 	@Command(name = "jumpscare", permission = "jumpscare.use", inGameOnly = true)
 	public void onCommand(CommandArgs cmd) {
 		CommandSender sender = cmd.getSender();
